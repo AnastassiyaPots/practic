@@ -11,6 +11,11 @@ body {
     color: #21243D;
     font-size: 16px;
 }
+/* сброс плавающих */
+
+.clearfix {
+    clear: both;
+}
 
 /* обертка в section */
 .wrapper {
@@ -152,10 +157,6 @@ header a {
     font-size: 18px;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .post__date {
     border-right: 1px solid black;
     padding-right: 32px;
@@ -176,5 +177,65 @@ header a {
 /* section works */
 
 .works {
-    
+    margin-top: 28px;
+    margin-bottom: 84px;
 }
+
+.works__title {
+    font-size: 22px;
+    margin-bottom: 36px;
+}
+
+.works__card {
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 36px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.works__card-img {
+    width: 246px;
+}
+
+.works__card-img img {
+    width: 100%;
+}
+
+.works__card-img, .works__box {
+    float: left;
+}
+
+.works__box {
+    width: calc(100% - 246px);
+    padding: 18px;
+}
+
+.works__card-title {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.works__date, .works__tags {
+    float: left;
+}
+
+.works__date {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900px;
+    background-color: #142850;
+    border-radius: 16px;
+    padding: 0 12px;
+}
+
+.works__tags {
+    margin-left: 24px;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.works__card-text, .works__card-info  {
+    margin-top: 20px;
+}
+
+
