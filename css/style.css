@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo';
+    color: #21243D;
+    font-size: 16px;
+}
+
+/* обертка в section */
+.wrapper {
+    width: 856px;
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    overflow: hidden;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+    margin: 27px 60px 27px 0;
+}
+
+header li {
+    float: left;
+    margin-left: 32px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* блок автора */
+.author {
+    margin-top: 128px;
+    margin-bottom: 72px;
+}
+.author .wrapper {
+    overflow: hidden;
+}
+
+.author__info {
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+
+.author__avatar {
+    float: right;
+    width: 243px;
+}
+
+.author__avatar img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -6px 6px 0px #EDF7FA;
+}
+.author__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 136%;
+    margin-bottom: 40px;
+}
+
+.author__text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* button */
+.btn {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin-top: 38px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* section post */
+
+.post {
+    background-color: #EDF7FA;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.post__header {
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.post__title {
+    float: left;
+    font-size: 22px;
+}
+
+.post__header a {
+    float: right;
+    text-decoration: none;
+    color: #00A8CC;
+    font-size: 16px;
+}
+
+.post .wrapper {
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+.post__cards {
+    overflow: hidden;
+}
+.post__card {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px;
+
+}
+
+.post__card:last-child {
+    margin-right: 0;
+}
+
+.post__card-title {
+    font-weight: 700px;
+    font-size: 26px;
+}
+
+
+.post__date, .post__tags {
+    float: left;
+    font-size: 18px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.post__date {
+    border-right: 1px solid black;
+    padding-right: 32px;
+}
+
+.post__tags {
+    margin-left: 32px;
+}
+
+.post__card-info {
+    margin-top: 26px;
+}
+
+.post__card-text {
+    margin-top: 20px;
+}
+
+/* section works */
+
+.works {
+    
+}
