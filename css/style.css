@@ -207,7 +207,7 @@ header a {
 
 .works__box {
     width: calc(100% - 246px);
-    padding: 18px;
+    padding-left: 18px;
 }
 
 .works__card-title {
@@ -236,6 +236,44 @@ header a {
 
 .works__card-text, .works__card-info  {
     margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 84px;
+    padding: 52px 0;
+}
+
+.footer__copyright {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.footer__social {
+    overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 312px;
+    margin-bottom: 28px;
+}
+
+.footer__icon {
+    float: left;
+    margin-right: 28px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.footer__icon img {
+    max-width: 37px;
+}
+
+.footer__icon:last-child {
+    margin-right: 0;
 }
 
 
